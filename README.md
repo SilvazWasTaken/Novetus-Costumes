@@ -8,6 +8,7 @@ Note that this has only been tested on Linux.
 Drag the python file to the root of your Novetus Directory.
 In Novetus: Create your character as you usually would, save it and then close Novetus. 
 Open the Script and type in the name of your costume under the "Save costume as:" entrybox. Click Save Costume.
-To load a costume, select your saved costume from the list and click Load Costume.
+To load a costume, close Novetus and select your saved costume from the list and then click Load Costume.
+Unfortunately, loading costumes while Novetus is open does not work.
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
