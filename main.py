@@ -12,7 +12,8 @@ if os.path.exists(os.path.join(os.getcwd(), 'config', 'config_customization.ini'
     window.title("Novetus Costumes")
     window.configure(background="#008080")
     window.geometry("400x400")
-    #icon do not work for now: window.iconbitmap(os.getcwd() + '/NovetusIcon.ico')
+    icon = PhotoImage(file = os.getcwd() + '/bin/preview/content/textures/Character.png')
+    window.iconphoto(False, icon)
     #label1
     lb1 = Label(window, text="Novetus Costumes", bg="#008080", fg="#ffffff", pady=5, font=("Helvetica", 15))
     lb1.grid(row=1, column=3, sticky=W)
