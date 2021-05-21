@@ -1,6 +1,8 @@
 # Overview
 Novetus Costumes is a script for Novetus, which you can check out here: https://github.com/Novetus/Novetus_src
 This is a script made in Python that saves customization ini files to a folder and loads them. This is a very simple script, but it allows users to create multiple outfits and costumes for their Novetus Characters.
+# Requirements
+Python3, Tkinter, shutil.
 # How to use
 Drag the python file to the root of your Novetus Directory.
 In Novetus: Create your character as you usually would, save it and then close Novetus. 
